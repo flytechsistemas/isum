@@ -6,7 +6,7 @@ $db = new medoo([
 	'database_name' => 'isum',
 	'server' => 'localhost',
 	'username' => 'root',
-	'password' => 'samsung1',
+	'password' => '',
 	'charset' => 'utf8',
 	'port' => 3306,
 	'option' => [ PDO::ATTR_CASE => PDO::CASE_NATURAL]
