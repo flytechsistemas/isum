@@ -111,7 +111,7 @@
 										<div class="form-group">
 											<label class="control-label col-md-3">Contado:</label>
 											<div class="col-md-9">
-												<input type="radio" <?=($datos["MODALIDAD"]==1)?"checked='checked'":"";?>>
+												<input type="radio" name="rdoModalidad" value="1" <?=($datos["MODALIDAD"]==1)?"checked":"";?>>
 											</div>
 										</div>
 									</div>
@@ -129,7 +129,7 @@
 										<div class="form-group">
 											<label class="control-label col-md-3">Credito.</label>
 											<div class="col-md-9">
-												<input type="radio" <?=($datos["MODALIDAD"]==2)?"checked='checked'":"";?>>
+												<input type="radio" name="rdoModalidad" value="2" <?=($datos["MODALIDAD"]==2)?"checked":"";?>>
 											</div>
 										</div>
 									</div>
