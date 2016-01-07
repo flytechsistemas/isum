@@ -31,7 +31,7 @@ function separar( $cadena ) {
 
 function generaMenu() {
 
-	$dir_sistema = ["assets", "Base de Datos", "includes", "lib", "plantilla", "perfil"];
+	$dir_sistema = [".git", "assets", "Base de Datos", "includes", "lib", "plantilla", "perfil"];
 
 	unset($_SESSION["menu"]);
 
